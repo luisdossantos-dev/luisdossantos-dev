@@ -21,50 +21,53 @@ GitHub Actions · Pytest · Jest · OpenTelemetry · Prometheus
 
 ---
 
-### 🛠 Tech Stack
+## About
 
-**Languages**
-Rust · Python · TypeScript · C/C++ · SQL
+I started learning computing long before it became my profession, moving from hardware, Linux, web systems, and programming into software engineering and artificial intelligence.
 
-**AI & Agents**
-LangGraph · RAG · Tool Calling · Multi-Agent Systems · Neuro-symbolic AI · LLMs & SLMs
+In parallel, I studied Law at the University of Buenos Aires. That background shaped the way I approach engineering: paying close attention to rules, edge cases, traceability, conflicting constraints, and the consequences of system failure.
 
-**MLOps & Model Optimization**
-Knowledge Distillation · Quantization (INT8/FP16, GGUF, 1.58-bit) · Fine-tuning (LoRA/QLoRA) · ONNX Runtime · llama.cpp · Agent Evals (Langfuse, Promptfoo)
-
-**Backend & Microservices**
-FastAPI · NestJS · Node.js · REST APIs · WebSockets · Server-Sent Events
-
-**Databases & Vector Search**
-PostgreSQL (pgvector, HNSW) · Qdrant · FastEmbed · SQLite · Redis
-
-**Infrastructure, Cloud & DevOps**
-Docker · Kubernetes · ArgoCD · Terraform · GitHub Actions · Linux SysAdmin · GCP
-
-**Frontend & Desktop**
-React · Vue 3 · Single-SPA · Tauri v2 · TailwindCSS
-
-**Security & Observability**
-Auditability-by-Design · PII Anonymization (GDPR/APPI) · OpenTelemetry · Prometheus
+Over time, those two paths converged. Today I work primarily on AI and software systems, with particular attention to reliability, safety, and maintainability.
 
 ---
 
-### 🚀 Featured Projects
+## What I build
 
-🏆 **PaySuite** — FinTech ecosystem (4 repos): fraud scoring <25ms, semantic search over 1M+ records, 689 tests, >93% coverage.
+My work spans AI engineering and general software engineering.
 
-🔍 **KelsenGraph** — Neuro-symbolic framework eliminating LLM hallucinations in legal contract review via formal verification.
+I have worked on RAG pipelines, agentic workflows, model optimization and inference, backend services, automation systems, computer vision, conversational AI, and desktop/web applications.
 
-🛡️ **legis-agent** — Legal compliance agent built with LangGraph, RAG, Langfuse & Promptfoo, with evals in CI.
+Depending on the problem, that may involve designing an agent state graph, optimizing a model for CPU inference, building services in Rust or Python, implementing retrieval systems, or developing the application around the AI itself.
 
-⚡ **cortex-gate** — Rust LLM routing gateway: <1.2ms classification, <25MB RAM, up to -60% API costs.
-
-📉 **distilkit** — MLOps distillation toolkit: -68% model weight with 97.8% accuracy and 4.1x throughput.
+I am interested in building useful systems for real-world problems, not AI as an isolated component.
 
 ---
 
-### 📫 Connect
+## How I approach engineering
 
-- **LinkedIn:** [in/luis-legal-engineer](https://www.linkedin.com/in/luis-legal-engineer)
-- **Email:** luisdossantos2001@gmail.com
-- **Location:** Tokyo, Japan
+I pay particular attention to failure modes, input validation, latency, observability, resource usage, maintainability, and the behavior of probabilistic components under real-world conditions.
+
+I design systems so that important behavior can be inspected, tested, measured, and improved. When reliability matters, I try to keep critical decisions explicit and place clear boundaries around components whose behavior is inherently probabilistic.
+
+Performance matters to me, but so does keeping complexity under control and understanding why a system behaves the way it does.
+
+---
+
+## Where I'm going
+
+I want to continue growing in AI systems engineering, particularly around model inference, optimization, agent architectures, and high-performance software.
+
+I am especially interested in the boundary between AI and systems engineering: efficient runtimes, resource constraints, native software, distributed services, and architectures that make increasingly capable models practical and reliable.
+
+My goal is to build useful technology in industry while continuing to deepen the engineering behind it.
+
+---
+
+## Background
+
+**Bachelor of Laws (LL.B.)**  
+University of Buenos Aires
+
+Based in **Tokyo, Japan**
+
+[LinkedIn](https://www.linkedin.com/in/luis~dos~santos/) · [Email](mailto:luisdossantos2001@gmail.com)
